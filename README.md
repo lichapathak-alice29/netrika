@@ -663,8 +663,11 @@ Final clinical decisions must be made by qualified healthcare professionals.
 # 👥 Team
 
 **Project:** NETRIKA
+
 **SIH 2026 Problem Statement:** 26038
+
 **Organization:** MathWorks
+
 **Theme:** MedTech / BioTech / HealthTech
 
 ---
@@ -675,5 +678,4 @@ Final clinical decisions must be made by qualified healthcare professionals.
 
 **AI-assisted retinal screening for a more accessible future of eye care.**
 
-```
 
