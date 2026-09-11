@@ -1,33 +1,48 @@
-# netrika
+# RetinaXplain 🩺👁️
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+### Explainable AI for Diabetic Retinopathy Screening in Rural India
 
-## Built with v0
+RetinaXplain is an AI-assisted retinal screening platform designed to support the early detection and severity assessment of **Diabetic Retinopathy (DR)** from fundus images.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+The system analyses retinal images, predicts the DR severity level from **0–4**, identifies potentially referable cases, and uses **Explainable AI (Grad-CAM)** to show the retinal regions that influenced the model's prediction.
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_NDoczipGEYUt5EhLePFRqujIWsDa)
+> **AI assists the screening process. It does not replace an ophthalmologist or provide a final clinical diagnosis.**
 
-## Getting Started
+---
 
-First, run the development server:
+## 🎯 Problem
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Diabetic Retinopathy is a major complication of diabetes that can lead to preventable vision loss.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In rural areas, access to ophthalmologists can be limited, making large-scale manual retinal screening difficult.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Poor-quality retinal images can also lead to unreliable AI predictions.
 
-## Learn More
+RetinaXplain aims to provide an AI-assisted screening workflow that can help identify potentially serious cases and prioritize them for specialist review.
 
-To learn more, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+## 💡 Our Solution
+
+The platform follows this workflow:
+
+```text
+Patient
+   ↓
+Retinal / Fundus Image
+   ↓
+Image Quality Assessment
+   ↓
+Image Preprocessing
+   ↓
+AI-based DR Classification
+   ↓
+DR Severity Level 0–4
+   ↓
+Referable DR Detection
+   ↓
+Grad-CAM Explainability
+   ↓
+Ophthalmologist Review
+   ↓
+Screening Report
